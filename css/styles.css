@@ -1,7 +1,7 @@
 /* variables */
 
 :root {
-    --color-principal: #b8a48a;
+    --color-principal: #cbcbcb;
     --color-secundario: #81817f;
     --color-terciario: #fff;
     --color-oscuro: #252525;
@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 .first_row {
     margin-top: 8px;

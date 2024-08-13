@@ -1,8 +1,8 @@
 {
-"name": "Tarjeta 001",
+"name": "Tarjeta 005",
 "short_name": "Tarjeta 001",
-"start_url": "/Tarjeta-001/",
-"scope": "/Tarjeta-001/",
+"start_url": "/tarjeta-005/",
+"scope": "/tarjeta-005/",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
