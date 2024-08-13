@@ -19,10 +19,12 @@
     />
 
     <!-- Google Fonts Mr Dafoe -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap"
+      rel="stylesheet"
+    />
 
     <script>
       navigator.serviceWorker.register("service-worker.js");
@@ -32,7 +34,6 @@
   <body>
     <!-- contenedor-->
     <div class="contenedor">
-      
       <!-- encabezado -->
       <div class="encabezado">
         <h1>Fotografo de Bodas</h1>
@@ -44,30 +45,59 @@
       </div>
 
       <!-- contacto -->
-       <section class="contacto">
+      <section class="contacto">
         <div class="first_row">
-          <div class="youtube"><img src="img/youtube.png" alt="" width="50px"></div>
-          <div class="phone"><p>1122223333 </p><img src="img/phone.png" alt="" width="40px"></div>
+          <a href="https://www.youtube.com">
+            <div class="youtube">
+              <img src="img/youtube.png" alt="" width="50px" />
+            </div>
+          </a>
+          <a href="tel:1122223333">
+            <div class="phone">
+              <p>1122223333</p>
+              <img src="img/phone.png" alt="" width="40px" />
+            </div>
+          </a>
         </div>
 
         <div class="first_row">
-          <div class="youtube"><img src="img/instagram.png" alt="" width="50px"></div>
-          <div class="phone"><p>tuemail@correo.com </p><img src="img/email.png" alt="" width="40px"></div>
+          <a href="https://www.instagram.com">
+            <div class="youtube">
+              <img src="img/instagram.png" alt="" width="50px" />
+            </div>
+          </a>
+
+          <a href="mailto:tuemail@correo.com">
+            <div class="phone">
+              <p>tuemail@correo.com</p>
+              <img src="img/email.png" alt="" width="40px" />
+            </div>
+          </a>
         </div>
 
         <div class="first_row">
-          <div class="youtube"><img src="img/linkedin.png" alt="" width="50px"></div>
-          <div class="phone"><p>direccion 222 </p><img src="img/mapa.png" alt="" width="40px"></div>
-        </div>
+          <a href="https://www.linkedin.com">
+            <div class="youtube">
+              <img src="img/linkedin.png" alt="" width="50px" />
+            </div>
+          </a>
 
-       </section>
+          <a href="https://maps.app.goo.gl/evXD4gHXvqpcuhgP9">
+            <div class="phone">
+              <p>direccion 222</p>
+              <img src="img/mapa.png" alt="" width="40px" />
+            </div>
+          </a>
+        </div>
+      </section>
 
       <!--boton compartir ------------------------------->
       <section class="botones">
         <a href="#" class="boton_compartir">Compartir</a>
         <a
           href="https://drive.google.com/file/d/1UUhyFTXD8Ue5y8kOy1QZm7sD5kpDdUSa/view?usp=drive_link"
-          class="boton_guardar">Guardar contacto</a
+          class="boton_guardar"
+          >Guardar contacto</a
         >
       </section>
 
